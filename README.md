@@ -68,9 +68,9 @@ and together they cover every image:
 ![Validation accuracy per epoch for both models](docs/validation_accuracy.png)
 
 The curves show per-epoch **validation** accuracy, taken from the notebook's printed output.
-They are not training accuracy. The pretrained model reaches 93.33% after the first epoch
-and stays at 96.67% from epoch 11 onward, apart from a dip to 76.67% at epoch 9. The from-scratch model starts near chance (50% at epoch 2)
-and fluctuates more. A single validation image is worth 1.67 percentage points, so small
+They are not training accuracy. The pretrained model reaches 93.33% after the first epoch,
+dips to 76.67% at epoch 9 and stays at 96.67% from epoch 11 onward. The from-scratch model
+starts near chance (50% at epoch 2) and fluctuates more. A single validation image is worth 1.67 percentage points, so small
 differences in the curves are not meaningful.
 
 ## Model interpretation (Grad-CAM)
