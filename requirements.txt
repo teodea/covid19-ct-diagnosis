@@ -1,0 +1,9 @@
+torch
+torchvision
+torchsummary
+grad-cam
+numpy
+pandas
+scikit-image
+matplotlib
+jupyter
